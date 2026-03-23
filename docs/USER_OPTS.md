@@ -91,6 +91,8 @@ If `sub_margins` is enabled, the subtitles are raised above the OSC when it's vi
 
 So, to control the raise amount of subtitles, adjust your `osc_height` and `fade_alpha` options in `modernz.conf` to change the OSC boundary.
 
+ModernZ also reacts to runtime updates of `video-margin-ratio-left` and `video-margin-ratio-right`, so external tools can reserve horizontal space and force the OSC to reflow without reloading the script.
+
 | Option          | Value | Description                                    |
 | --------------- | ----- | ---------------------------------------------- |
 | sub_margins     | yes   | raise subtitles above the OSC when shown       |
